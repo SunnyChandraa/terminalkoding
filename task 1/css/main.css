@@ -793,6 +793,82 @@ body.tg-comingsoonpage .tg-wrapper{overflow:visible;}
 	line-height: inherit;
 	font-family: 'FontAwesome';
 }
+
+.tg-dropdown-new {
+	top: 100px;
+	left: 0;
+	margin: 0;
+	opacity: 0;
+	width: 230px;
+	text-align: left;
+	background: #fff;
+	visibility: hidden;
+	position: absolute;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.20);
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.20);
+	font:400 13px/40px 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
+
+.tg-dropdown-new li {
+	width: 100%;
+	float: left;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-dropdown-new li + li {border-top: 1px solid #dbdbdb;}
+.tg-dropdown-new li a {
+	color: #666;
+	width: 100%;
+	float: left;
+	padding: 0 20px;
+	line-height: inherit;
+}
+.tg-dropdown-new li a:hover {background: #fafafa;}
+.tg-dropdown-new li a i,
+.tg-dropdown-new li a span{
+	float: left;
+	font-style: normal;
+	line-height: inherit;
+}
+.tg-dropdown-new li a span {
+	margin-left: 10px;
+	padding-left: 10px;
+	position: relative;
+}
+.tg-dropdown-new li a span:before {
+	top: 0;
+	left: -2px;
+	content: '-';
+	position: absolute;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.tg-dropdown-new p { margin: 0; }
+.tg-dropdown-new {
+	top: 100px;
+	right: 0;
+	left: auto;
+	border: 0;
+	opacity: 0;
+	z-index: 10;
+	width: 330px;
+	padding: 15px;
+	display: block;
+	border-radius: 0;
+	margin: 25px 0 0;
+	visibility: hidden;
+	border-top: 3px solid;
+}
+
+.tg-dropdown-new {
+	top: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+
+.tg-dropdown-new{margin:1px 0 0;}
+
 .tg-currencydropdown .tg-themedropdownmenu {
 	border: 0;
 	padding: 0;
@@ -4163,3 +4239,16 @@ body.tg-comingsoonpage:before{
 .tg-comingsoonholder .tg-formnewsletter input{margin:0;}
 body.tg-comingsoonpage .tg-footer{border:0;}
 body.tg-comingsoonpage .tg-footerbar{position:static;}
+
+
+.list-style{
+	width: 10px;
+}
+.list-style li {
+	/* width: 100%;*/
+	/* height: 100%;  */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 25px;
+	 /* background-color: red;  */
+}
